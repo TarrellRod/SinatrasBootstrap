@@ -1,0 +1,22 @@
+<% title="Songs by Sinatra" %>
+	<!doctype html>
+	<html>
+		<head>
+			<title><%= @title || "Songs By Sinatra" %></title>
+			<met charset="utf-8">
+				<link rel="stylesheet" href="/css/customstyle.css">
+		</head>
+		<body>
+			<header>
+				<%= erb :nav %>
+				
+			<h1>Songs By Sinatra</h1>	
+			</header>
+			<section>
+				
+				<%= yield %>
+			</section>
+			<script src="//code.jquery.com/jquery.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+		</body>
+	</html>
