@@ -1,16 +1,18 @@
 @import url("bootstrap.min.css");
-@import url("magic-bootstrap.css");
+/*----- This is a custom bootstrap uncomment to view --------*/
+/*@import url("magic-bootstrap.css");*/
+/*-------------------------------------------------------*/
 
 
 .jumbotron{
 	margin-top: 40px;
-	background: url("../images/Hyd.jpg") bottom center no-repeat;
+	background: url("/images/sinatra.jpg") center no-repeat;
 	background-size: cover;
-	color: #FFFFFF;
+	color: black;
 }
 
 .jumbotron h1{
-	color: #FFFFFF;
+	color: black;
 	text-shadow: 0px 0px 5px #888888;
 }
 .reg{
@@ -26,7 +28,7 @@
 	width:50%;
 }
 footer{
-	border-top: 1px dashed #CCCCCC;
+	border-top: 2px dashed #CCCCCC;
 	margin: 40px 0px;
 	padding: 20px 0px;
 }
